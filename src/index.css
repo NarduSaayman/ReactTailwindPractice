@@ -9,9 +9,10 @@
 
 .body {
   font-family: "Poppins", sans-serif;
+  margin: 0px;
 }
 
 .itemHeader {
-  text-shadow: -1px -1px 0 #0d6cff, 1px -1px 0 #0d6cff, -1px 1px 0 #0d6cff,
-    1px 1px 0 #0d6cff;
+  text-shadow: -1px -1px 0 #488be3, 1px -1px 0 #488be3, -1px 1px 0 #488be3,
+    1px 1px 0 #488be3;
 }

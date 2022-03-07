@@ -2,6 +2,9 @@ module.exports = {
   content: ["./index.html", "./src/**/*.tsx"],
   theme: {
     extend: {
+      conatianer: {
+        center: true,
+      },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
         "PT-serif": ["PT Serif", "serif"],
@@ -10,10 +13,11 @@ module.exports = {
         home: `135px 1fr`,
       },
       colors: {
-        primary: "#0d6cff",
+        primary: "#488be3",
         body: "#f0f0f0",
         "body-secondary": "#fafaf9",
         secondary: "#6a6a6b",
+        button: "#3a83f7",
         glow: "#c1ddfa",
         header: "#262828",
         card: "#fffffe",
