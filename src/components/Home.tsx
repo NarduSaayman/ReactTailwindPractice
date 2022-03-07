@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div id="HomePage" className="flex flex-col">
       <div id="Home" className="container pb-24">
-        <h1 className="flex pt-16 font-poppins font-bold leading-relaxed text-[40px] text-header justify-end text-center md:text-left w-[100%] md:w-[50vh]">
+        <h1 className="flex pt-10 font-poppins font-bold leading-relaxed text-[40px] text-header justify-end text-center md:text-left w-[100%] md:w-[50vh]">
           Simplify your company systems with our IT Solutions
         </h1>
 
@@ -22,12 +22,14 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-col mb-16 justify-between font-poppins font-bold">
+          <div className="flex flex-col mb-16 pl-12 lg:pl-0 justify-between font-poppins font-bold">
             <div className="flex flex-row">
-              <h2 className="itemHeader italic font-medium text-body text-9xl px-4 pl-10">
-                1
-              </h2>
-              <div className="p-11 mt-2">
+              <div className="w-56 text-center">
+                <h2 className="itemHeader italic font-medium text-body text-9xl">
+                  1
+                </h2>
+              </div>
+              <div className="p-11 pb-12 pl-0 pr-10 mt-2">
                 <h3 className="text-2xl text-header pb-3">
                   Project Discussion
                 </h3>
@@ -39,11 +41,13 @@ export default function Home() {
             </div>
 
             <div className="flex flex-row">
-              <h3 className="itemHeader italic font-medium text-body text-9xl px-4">
-                2
-              </h3>
-              <div className="p-11 mt-2">
-                <h1 className="text-2xl text-header pb-3">Case Study</h1>
+              <div className="w-56 text-center">
+                <h2 className="itemHeader italic font-medium text-body text-9xl">
+                  2
+                </h2>
+              </div>
+              <div className="p-11 pb-12 pl-0 pr-10 mt-2">
+                <h3 className="text-2xl text-header pb-3">Case Study</h3>
                 <p className="font-medium text-secondary text-sm leading-normal">
                   It is a long established fact that reader will be distracted
                   by the readable content.
@@ -52,11 +56,13 @@ export default function Home() {
             </div>
 
             <div className="flex flex-row">
-              <h3 className="itemHeader italic font-medium text-body text-9xl px-4">
-                3
-              </h3>
-              <div className="p-11 mt-2">
-                <h1 className="text-2xl text-header pb-3">Execute Project</h1>
+              <div className="w-56 text-center">
+                <h2 className="itemHeader italic font-medium text-body text-9xl">
+                  3
+                </h2>
+              </div>
+              <div className="p-11 pb-12 pl-0 pr-10 mt-2">
+                <h3 className="text-2xl text-header pb-3">Execute Project</h3>
                 <p className="font-medium text-secondary text-sm leading-normal">
                   It is a long established fact that reader will be distracted
                   by the readable content.

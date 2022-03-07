@@ -20,8 +20,10 @@ const BlogCard = (props: BlogCardProps) => {
         <p className="font-medium text-secondary text-left text-ellipsis text-sm pb-10 leading-normal">
           {description}
         </p>
-        <div className="text-xs font-medium text-right pb-3 text-header cursor-pointer hover:text-primary">
-          Read more
+        <div className="text-xs font-medium text-right pb-3">
+          <span className="text-header cursor-pointer hover:text-primary">
+            Read more
+          </span>
         </div>
       </div>
     </div>
@@ -37,7 +39,7 @@ export default function Blog() {
       <h2 className="flex font-poppins font-bold text-[40px] text-header text-center justify-center">
         Recent news from the blog
       </h2>
-      <p className="font-medium text-secondary text-sm text-center pt-1 pb-20">
+      <p className="font-medium font-poppins text-secondary text-sm text-center pt-1 pb-20">
         The point of using Lorem Ipsum is that it has.
       </p>
       <div id="BlogCards" className="flex flex-wrap gap-14 justify-center">

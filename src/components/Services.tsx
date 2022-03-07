@@ -14,7 +14,7 @@ const ServiceCard = (props: ServiceCardProps) => {
       >
         <i className={`fa fa-laptop-code${Icon} fa-2x text-card`}></i>
       </div>
-      <h3 className="font-bold text-sm text-header pt-6 pb-3">{Heading}</h3>
+      <h3 className="font-bold text-sm text-header pt-6 pb-2.5">{Heading}</h3>
       <p className="font-semibold text-secondary text-xs leading-[1.6]">
         {Description}
       </p>
@@ -30,7 +30,7 @@ export default function Services() {
           <h2 className="flex font-poppins font-bold text-[40px] text-header text-center justify-center">
             Here are the services we provide
           </h2>
-          <p className="font-medium text-secondary text-sm text-center pt-2">
+          <p className="font-medium font-poppins text-secondary text-sm text-center pt-2">
             The point of using Lorem Ipsum is that it has.
           </p>
         </div>
